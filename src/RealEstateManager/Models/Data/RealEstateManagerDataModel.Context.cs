@@ -32,5 +32,7 @@ namespace RealEstateManager.Models.Data
         public virtual DbSet<Contact> Contacts { get; set; }
         public virtual DbSet<SystemValue> SystemValues { get; set; }
         public virtual DbSet<ContactAccount> ContactAccounts { get; set; }
+
+       
     }
 }
